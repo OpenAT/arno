@@ -36,7 +36,9 @@ span.price_donate_suggested_outer {
 body #wsd-checkout-box {
     margin-top: 16px;
 }
-
+#wsd-checkout-box img.product-image {
+    width: auto !important;
+}
 /* Add some space between the text and the interval selection */
 .payment_interval_ids div.form-group{
     margin-top: 12px;
@@ -156,7 +158,11 @@ div.checkout_steps_buttons {
 }
 
 #wsd_checkout_form .form-control-feedback {
-    top: 25px;
+    top: 28px !important;
+}
+
+#wsd_checkout_form .payment_interval_ids .form-control-feedback {
+    top: 0px;
 }
 
 /* ------- */
