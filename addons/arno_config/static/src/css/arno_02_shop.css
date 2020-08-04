@@ -245,3 +245,7 @@ div.checkout_steps_buttons {
 #products_grid_before .text-left small_cart_buttons .clearfix {
     float: right;
 }
+
+#products_grid .oe_product section {
+    background-color: #64a70b;
+}
