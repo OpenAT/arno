@@ -59,6 +59,9 @@ h3.small_cart_header a {
     display: inline-block;
 }
 
+.wsd_cfi_buttons {
+    margin-top: 10px;
+}
 /* Order Total */
 #order_total h3 {
     font-size: 18px;
@@ -91,13 +94,13 @@ ul.checkout_steps_indicator li a:hover {
     background-color: transparent;
 }
 ul.checkout_steps_indicator li.active {
-    background-color: #64A70B;
+    background-color: #69b42e;
 }
 ul.checkout_steps_indicator li.active a,
 ul.checkout_steps_indicator li.active a:hover,
 ul.checkout_steps_indicator.nav-tabs > li.active > a {
     color: #fff;
-    border-color: #64A70B;
+    border-color: #69b42e;
 }
 
 .nav-tabs > li.active > a {
@@ -110,13 +113,13 @@ ul.checkout_steps_indicator.nav-tabs > li.active > a {
 }
 .nav-tabs > li.active > a:hover {
     background-color: transparent;
-    color: #64A70B;
+    color: #69b42e;
 }
 ul.checkout_steps_indicator.nav-tabs > li > a {
     border-color: #ff6332;
 }
 ul.checkout_steps_indicator.nav-tabs > li > a:hover {
-    border-color: #64A70B;
+    border-color: #69b42e;
 }
 div.checkout_steps_buttons {
     width: 100%;
@@ -143,7 +146,7 @@ div.checkout_steps_buttons {
     color: white !important;
 }
 #wsd-checkout-box > div > div > h1 {
-    color: #dd710f;
+    color: #ff6332;
 }
 
 /* ONE PAGE CHECKOUT */
@@ -247,5 +250,5 @@ div.checkout_steps_buttons {
 }
 
 #products_grid .oe_product section {
-    background: #64a70b !important;
+    background: #69b42e !important;
 }

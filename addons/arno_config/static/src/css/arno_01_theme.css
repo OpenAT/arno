@@ -33,7 +33,7 @@ body #wrapwrap footer {
 }
 .navbar-default .navbar-nav > li > a:hover {
     color: #fff;
-    background-color: #64A70B;
+    background-color: #69b42e;
 }
 .dropdown-menu > li > a {
     color: rgba(91,91,91,.9);
@@ -48,7 +48,7 @@ body #wrapwrap footer {
   color: #ffffff;
   background-image: initial;
   text-decoration: none;
-  background-color: #64A70B;
+  background-color: #69b42e;
   outline: 0;
 }
 @media (max-width: 767px) {
@@ -68,14 +68,14 @@ body #wrapwrap footer {
 }
 
 .navbar.navbar-static-top ul.nav > li.divider {
-    background-color: #64A70B;
+    background-color: #69b42e;
     margin-top: 0px;
     padding-top: 0px;
 }
 .dropdown-menu > li:hover,
 .dropdown-menu > li > a:hover {
     color: #ffffff;
-    background-color: #64A70B;
+    background-color: #69b42e;
     -webkit-transition: color 0.3s ease 0s;
     -moz-transition: color 0.3s ease 0s;
     -o-transition: color 0.3s ease 0s;
@@ -85,27 +85,27 @@ body #wrapwrap footer {
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover {
-    background-color: #64A70B;
+    background-color: #69b42e;
 }
 
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
     color: #fff;
-    background-color: #64A70B;
+    background-color: #69b42e;
 }
 
 .breadcrumb li > a {
     color: #ff6332;
 }
 .breadcrumb li > a:hover {
-    color: #64A70B;
+    color: #69b42e;
 }
 .nav-pills > li > a {
     color: #ff6332;
 }
 .nav-pills > li > a:hover {
-    color: #64A70B;
+    color: #69b42e;
 }
 /* ------------------- */
 /* DEFAULT ODOO COLORS */
@@ -117,22 +117,22 @@ body .oe_grey_light {
     background-color: #eeeeeec7 !important;
 }
 body .oe_red {
-    background-color: #ea470d !important;
+    background-color: #ff6332 !important;
     color: white;
 }
 body .oe_white {
     background-color: #ffffff !important;
 }
 body .oe_green {
-    background-color: #63bc46 !important;
+    background-color: #69b42e !important;
 }
 body .oe_blue {
     background-color: #35477a !important;
     color: white;
 }
 a {
-    color: #64A70B;
+    color: #69b42e;
 }
 a:hover {
-    color: #64A70B;
+    color: #69b42e;
 }

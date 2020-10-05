@@ -2,29 +2,40 @@
 /* BOOTSTRAP BUTTONS */
 /* ----------------- */
 
-.btn-primary {
+.btn-primary,
+#add_to_cart {
     border-color: #ff6332;
     background-color: transparent;
+    border-width: 2px;
+    font-weight: 700;
+    border-radius: 50px;
 }
 .btn-default {
     border-color: #ff6332;
-        background-color: transparent;
-
+    background-color: transparent;
+    border-width: 2px;
+    font-weight: 700;
+    border-radius: 50px
 }
 .btn-primary:hover,
-.btn-primary a:hover {
+.btn-primary a:hover,
+#add_to_cart:hover,
+#add_to_cart a:hover {
     border-color: #64A70B;
     color: #64A70B;
     background-color: transparent;
-
-
+    border-width: 2px;
+    font-weight: 700;
+    border-radius: 50px;
 }
 .btn-default:hover,
 .btn-default a:hover {
     border-color: #64A70B;
     color: #64A70B;
     background-color: transparent;
-
+    border-width: 2px;
+    font-weight: 700;
+    border-radius: 50px;
 }
 /* Remove Button BG Gradient */
 .btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
