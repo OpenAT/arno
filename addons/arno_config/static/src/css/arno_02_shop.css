@@ -143,9 +143,9 @@ div.checkout_steps_buttons {
     content: " *";
 }
 .price_donate_suggested_currency {
-    color: ff6332 !important;
-    margin-top: 5px;
-    margin-left:15px;
+    color: #ff6332 !important;
+    margin-top: 5px !important;
+    margin-left:15px !important;
 }
 #wsd-checkout-box > div > div > h1 {
     color: #ff6332;
