@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+
+    <!-- INHERIT AND EXTEND theme_default_snippets -->
+    <template id="email_theme_arno_snippets_overrides_prat2" inherit_id="fso_website_email.theme_framework_snippets"
+              name="Email Theme arno Snippet overrides part2">
+
+        <xpath expr="//li[@id='snippet_menu_special']" position="after">
+            <li id="snippet_menu_combined_snippets_arno">
+                <a href="#combined_snippets_arno" data-toggle="tab">Combined</a>
+            </li>
+        </xpath>
+
+        <!-- ======================= -->
+        <!--  arno COMBINED SNIPPETS -->
+        <!-- ======================= -->
+        <xpath expr="//div[@id='snippet_email_special']" position="after">
+            <div id="combined_snippets_arno" class="tab-pane fade">
+
+                <!-- HEADER SNIPPET BLOCK ALLG -->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_arno/static/src/icons/arno_nl_header_icon.png"/>
+                        <span class="oe_snippet_thumbnail_title">Header Snippet</span>
+                    </div>
+                    <div id="combinedheadersnippetWebVersion" class="oe_snippet_body ckediting_disabled arno_bin">
+                     <div class="snippet_block ckediting_enabled snippet_block_text_intro arno_sb_bg_background">
+                        <table class="centeringTable" cellpadding="0" cellspacing="0">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="flexibleContainerCell" align="center" valign="top">
+                                                        <table class="nestedContainer" border="0" cellpadding="0"
+                                                               cellspacing="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="nestedContainerCell" align="center"
+                                                                        valign="top">
+                                                                        <table class="contentTable" border="0"
+                                                                               cellpadding="0" cellspacing="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="textContent ckediting_enabled"
+                                                                                        contenteditable="true">
+                                                                                        <p class="arno_tiny"
+                                                                                           style="text-align: center;">
+                                                                                            <a href="%open_browser%" data-cke-saved-href="%open_browser%" target="_blank" style="text-align: center; color: gray; font-weight: 700; font-size: 12px;">Hier gehts zur Online Version</a>
+                                                                                        </p>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div id="combinedheadersnippet" class="ckediting_enabled snippet_block_text_image_left arno_snippet_block_padding_none">
+                        <table cellpadding="0" cellspacing="0" class="centeringTable">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center" class="flexibleContainerCell" valign="top">
+                                                        <table border="0" cellpadding="0" cellspacing="0"
+                                                               class="nestedContainer">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center" class="nestedContainerCell"
+                                                                        valign="top">
+                                                                        <table border="0" cellpadding="0"
+                                                                               cellspacing="0" class="contentTable">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="textContent">
+                                                                                        <table align="center"
+                                                                                               border="0"
+                                                                                               cellpadding="0"
+                                                                                               cellspacing="0"
+                                                                                               class="flexibleContainerLeft">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td align="center"
+                                                                                                        class="imageContent ckediting_enabled"
+                                                                                                        valign="top">
+                                                                                                        <a href="https://www.aktivertierschutz.at">
+                                                                                                            <img class="flexibleImage atlogo" src="/fso_website_email_arno/static/src/img/arno_logo.png" width="320" alt="arno logo" style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-height: 103px; max-width: 320px;"></img>
+                                                                                                        </a>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    </div>
+                </div>
+                <!-- FOOTER SNIPPET BLOCK -->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_arno/static/src/icons/arno_nl_footer_icon.png"/>
+                        <span class="oe_snippet_thumbnail_title">Footer Snippet</span>
+                    </div>
+                    <div id="combinedsnippetfooter" class="oe_snippet_body ckediting_disabled arno_bin">
+
+                        <div id="contactbarfooter" class="ckediting_disabled snippet_block snippet_block_text_threecol">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33left">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            style="text-align:center;"
+                                                                                                            valign="top">
+                                                                                                            <img class="flexibleImage contactbaricons"
+                                                                                                                 src="/fso_website_email_arno/static/src/icons/phone.png"
+                                                                                                                 style="text-align:center; margin:auto;  width:72px;"/>
+                                                                                                            <h3 class="arno_small"
+                                                                                                                style="text-align: center;">
+                                                                                                                <span style="color:#64a70b;">
+                                                                                                                    Ruf
+                                                                                                                    uns
+                                                                                                                    an
+                                                                                                                </span>
+                                                                                                            </h3>
+
+                                                                                                            <p class="arno_small"
+                                                                                                               style="text-align: center;">
+                                                                                                                Wir sind
+                                                                                                                MO-FR
+                                                                                                                von
+                                                                                                                08-12h
+                                                                                                                &amp;14-17h
+                                                                                                                <br/>
+                                                                                                                SA
+                                                                                                                08-15h
+                                                                                                                für Euch
+                                                                                                                erreichbar:
+                                                                                                                <br/>
+                                                                                                                0316 42
+                                                                                                                19 42
+                                                                                                            </p>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33middle">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            style="text-align:center;"
+                                                                                                            valign="top">
+                                                                                                            <img class="flexibleImage contactbaricons"
+                                                                                                                 src="/fso_website_email_arno/static/src/icons/email.png"
+                                                                                                                 style="text-align:center; margin:auto;  width:72px;"/>
+                                                                                                            <h3 class="arno_small"
+                                                                                                                style="text-align: center;">
+                                                                                                                <span style="color:#64a70b;">
+                                                                                                                    Schreib
+                                                                                                                    uns
+                                                                                                                </span>
+                                                                                                            </h3>
+
+                                                                                                            <p class="arno_small"
+                                                                                                               style="text-align: center;">
+                                                                                                                ir
+                                                                                                                melden
+                                                                                                                uns so
+                                                                                                                schnell
+                                                                                                                wie
+                                                                                                                möglich
+                                                                                                                zurück:
+                                                                                                                <br/>
+                                                                                                                sekretariat
+                                                                                                                @
+                                                                                                                aktivertierschutz.at
+                                                                                                            </p>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainer33 flexibleContainer33right">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            style="text-align:center;"
+                                                                                                            valign="top">
+                                                                                                            <img class="flexibleImage contactbaricons"
+                                                                                                                 src="/fso_website_email_arno/static/src/icons/map.png"
+                                                                                                                 style="text-align:center; margin:auto; width:72px;"/>
+                                                                                                            <h3 class="arno_small"
+                                                                                                                style="text-align: center;">
+                                                                                                                <span style="color:#64a70b;">
+                                                                                                                    Anfahrt
+                                                                                                                </span>
+                                                                                                            </h3>
+
+                                                                                                            <p class="arno_small"
+                                                                                                               style="text-align: center;">
+                                                                                                                Neufeldweg
+                                                                                                                211
+                                                                                                                <br/>
+                                                                                                                8041
+                                                                                                                Graz
+                                                                                                                <br/>
+                                                                                                                Österreich
+                                                                                                            </p>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+
+
+                        <div id="mediaicons" class="ckediting_disabled snippet_block snippet_block_text_intro arno_sb_bg_background">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled">
+                                                                                            <p style="text-align: center;">
+                                                                                                <a href="https://facebook.com/Tierschutzhaus.ArcheNoah" target="_blank" style="display: inline-block; text-decoration: none;">
+                                                                                                    <img src="/fso_website_email_arno/static/src/icons/FB-Button.png" style="width:32px; margin: 0 20px; border:0 none;"/>
+                                                                                                </a>
+                                                                                                <a href="https://instagram.com/aktiver.tierschutz.steiermark" target="_blank" style="display: inline-block; text-decoration: none;">
+                                                                                                    <img src="/fso_website_email_arno/static/src/icons/IG-Button.png" style="width:32px; margin: 0 20px; border:0 none;" />
+                                                                                                </a>
+                                                                                                <a href="mailto:sekretariat@aktivertierschutz.at" target="_blank" style="display: inline-block; text-decoration: none;">
+                                                                                                    <img src="/fso_website_email_arno/static/src/icons/email.png" style="width:32px; margin: 0 20px; border:0 none;"/>
+                                                                                                </a>
+                                                                                            </p>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+
+</data>
+</openerp>
