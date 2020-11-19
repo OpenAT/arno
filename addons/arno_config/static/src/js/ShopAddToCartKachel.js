@@ -3,6 +3,13 @@ $(document).ready( function() {
 	$("body[data-rootcatid='2'] .oe_product").click( function( e ) {
         e.preventDefault();
     });
+
+	//Opionaler Ansatz für Perfekte Bilder im Shop indem man die Bilder in die Div Box gibt um damit mit Background image zu arbeiten
+	//einfacher zentrieren zu können. background:center; background-size;cover; background:no-repeat;
+//	$('#products_grid .oe_product').each( function() {
+//	    var img_src = $(this).find('.img').attr('src');
+//	    $(this).find('.oe_product_image').css('background-image', 'url("' + img_src + '")');
+//    });
     //find clicked elemments
     //$("div").click(function(){
     //    alert($(this).attr("class"));

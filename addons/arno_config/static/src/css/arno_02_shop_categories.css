@@ -4,9 +4,20 @@
 
 /* Product GRID */
 /* ------------ */
+/*
+#products_grid .oe_product .oe_product_image img {
+    height: 300px;
+
+}
+#products_grid .wrap_wsd_1 {
+height: 390px;
+}
+*/
+
 #products_grid .oe_product section {
     background: #666666;
     font-size: 20px;
+    min-height: 90px;
 }
 #products_grid .oe_product section h5 {
     font-size: 20px;
@@ -14,6 +25,19 @@
 #products_grid .oe_product section a {
     color: white;
 }
+@media (max-width: 768px) {
+    #products_grid .oe_product {
+        height: 380px !important;
+        width: 378px !important;
+    }
+}
+@media (max-width: 400px) {
+#products_grid .oe_product.oe_image_full .oe_product_image {
+    bottom: 0px !important;
+}
+}
+
+
 #products_grid .product_price.text-primary {
     color: white;
 }
@@ -75,3 +99,47 @@ body .col-md-12 .oe-height-2 {
         height: 380px;
     }
 }
+
+/* Special test with on if JS is enabled JS and move Picture into other container */
+/*#products_grid .oe_product .oe_product_image img {
+    visibility: hidden;
+}
+.oe_product .oe_product_image {
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+/* Special test with on if JS END */
+/* special center tests for images in grid shop overview pages */
+/*.oe_product .oe_product_image img {
+    margin: initial !important;
+    top: initial !important;
+    left: 50% !important;
+    bottom: initial !important;
+    right: initial !important;
+    transform: translateX(-50%) !important;
+}*/
+/* fix it for mobile */
+/*@media (max-width: 768px) {
+    #products_grid .oe_product {
+        width: 300px !important;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}*/
+@media (max-width: 400px) {
+    .oe_product .oe_product_image {
+        width: 380px !important;
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+}
+
+/*.oe_product .oe_product_image {
+    height: 300px;
+}
+body .col-md-12 .oe-height-2 {
+    height: auto;
+}*/
