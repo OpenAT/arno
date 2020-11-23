@@ -72,7 +72,7 @@
                         </table>
                     </div>
 
-                    <div id="combinedheadersnippet" class="ckediting_enabled snippet_block_text_image_left arno_snippet_block_padding_none">
+                    <div id="combinedheadersnippet" class="ckediting_disabled snippet_block snippet_block_banner dadi_sb_bg_full" contenteditable="false">
                         <table cellpadding="0" cellspacing="0" class="centeringTable">
                             <tbody>
                                 <tr>
@@ -81,6 +81,7 @@
                                             <tbody>
                                                 <tr>
                                                     <td align="center" class="flexibleContainerCell" valign="top">
+
                                                         <table border="0" cellpadding="0" cellspacing="0"
                                                                class="nestedContainer">
                                                             <tbody>
@@ -91,24 +92,10 @@
                                                                                cellspacing="0" class="contentTable">
                                                                             <tbody>
                                                                                 <tr>
-                                                                                    <td class="textContent">
-                                                                                        <table align="center"
-                                                                                               border="0"
-                                                                                               cellpadding="0"
-                                                                                               cellspacing="0"
-                                                                                               class="flexibleContainerLeft">
-                                                                                            <tbody>
-                                                                                                <tr>
-                                                                                                    <td align="center"
-                                                                                                        class="imageContent ckediting_enabled"
-                                                                                                        valign="top">
+                                                                                    <td class="textContent ckediting_enabled" contenteditable="true">
                                                                                                         <a href="https://www.aktivertierschutz.at">
-                                                                                                            <img class="flexibleImage atlogo" src="/fso_website_email_arno/static/src/img/arno_logo.png" width="320" alt="arno logo" style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-height: 103px; max-width: 320px;"></img>
+                                                                                                            <img class="flexibleImage snippet_block_banner_image" src="/fso_website_email_arno/static/src/img/Logo-Aktiver-Tierschutz-Austria---Gemeinsam-Stark-email-klein.png" width="650" alt="arno logo" style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-height: 220px; max-width: 650px;"></img>
                                                                                                         </a>
-                                                                                                    </td>
-                                                                                                </tr>
-                                                                                            </tbody>
-                                                                                        </table>
                                                                                     </td>
                                                                                 </tr>
                                                                             </tbody>
@@ -176,27 +163,17 @@
                                                                                                             <h3 class="arno_small"
                                                                                                                 style="text-align: center;">
                                                                                                                 <span style="color:#64a70b;">
-                                                                                                                    Ruf
-                                                                                                                    uns
-                                                                                                                    an
+                                                                                                                    Ruf uns an
                                                                                                                 </span>
                                                                                                             </h3>
 
                                                                                                             <p class="arno_small"
                                                                                                                style="text-align: center;">
-                                                                                                                Wir sind
-                                                                                                                MO-FR
-                                                                                                                von
-                                                                                                                08-12h
-                                                                                                                &amp;14-17h
+                                                                                                                MO-FR 08-12h &amp; 14-17h
                                                                                                                 <br/>
-                                                                                                                SA
-                                                                                                                08-15h
-                                                                                                                für Euch
-                                                                                                                erreichbar:
+                                                                                                                SA 08-15h
                                                                                                                 <br/>
-                                                                                                                0316 42
-                                                                                                                19 42
+                                                                                                                0316 42 19 42
                                                                                                             </p>
                                                                                                         </td>
                                                                                                     </tr>
@@ -227,7 +204,7 @@
 
                                                                                                             <p class="arno_small"
                                                                                                                style="text-align: center;">
-                                                                                                                ir
+                                                                                                                Wir
                                                                                                                 melden
                                                                                                                 uns so
                                                                                                                 schnell
@@ -235,9 +212,7 @@
                                                                                                                 möglich
                                                                                                                 zurück:
                                                                                                                 <br/>
-                                                                                                                sekretariat
-                                                                                                                @
-                                                                                                                aktivertierschutz.at
+                                                                                                                <a style="font-size:14px;" href="mailto:sekretariat@aktivertierschutz.at">sekretariat@aktivertierschutz.at</a>
                                                                                                             </p>
                                                                                                         </td>
                                                                                                     </tr>
@@ -328,6 +303,24 @@
                                                                                                 </a>
                                                                                                 <a href="mailto:sekretariat@aktivertierschutz.at" target="_blank" style="display: inline-block; text-decoration: none;">
                                                                                                     <img src="/fso_website_email_arno/static/src/icons/email.png" style="width:32px; margin: 0 20px; border:0 none;"/>
+                                                                                                </a>
+                                                                                            </p>
+                                                                                            <p class="arno_tiny"
+                                                                                               style="text-align: center;">
+                                                                                                <a href="https://www.aktivertierschutz.at/dsgvo"
+                                                                                                   target="_blank">
+                                                                                                    <span style="font-size:14px; color:#999999;">
+                                                                                                        Datenschutz
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                                <span style="color:#999999;">
+                                                                                                    |
+                                                                                                </span>
+                                                                                                <a href="https://www.aktivertierschutz.at/newsletter-abmeldung"
+                                                                                                   target="_blank">
+                                                                                                    <span style="font-size:14px; color:#999999;">
+                                                                                                        Abmelden
+                                                                                                    </span>
                                                                                                 </a>
                                                                                             </p>
                                                                                         </td>
