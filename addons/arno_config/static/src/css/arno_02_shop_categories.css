@@ -17,7 +17,7 @@ height: 390px;
 #products_grid .oe_product section {
     background: #666666;
     font-size: 20px;
-    min-height: 90px;
+    min-height: 100px;
 }
 #products_grid .oe_product section h5 {
     font-size: 20px;
@@ -25,17 +25,17 @@ height: 390px;
 #products_grid .oe_product section a {
     color: white;
 }
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     #products_grid .oe_product {
-        height: 380px !important;
-        width: 378px !important;
+        height: 420px !important;
+        width: 320px !important;
     }
 }
 @media (max-width: 400px) {
 #products_grid .oe_product.oe_image_full .oe_product_image {
     bottom: 0px !important;
 }
-}
+}*/
 
 
 #products_grid .product_price.text-primary {
@@ -77,28 +77,28 @@ body[data-rootcatid="4"] #wrap > div.container.oe_website_sale > div.row {
 
 /* TODO: Shop Grid Size for col md-12 and two products per row
          You may need to remove the original css of website.sale becaues the media queries are different for rnde!
-*/
-body .col-md-12 .oe-height-2 {
-  height: 380px;
-}
-/* bis 400 px */
-@media (max-width: 400px) {
-    body #products_grid .oe_product section {
-        background: #f8f8f8;
-    }
-}
-/* ab 992px */
-@media (min-width: 992px) {
-    body .col-md-12 .oe-height-2 {
-        height: 380px;
-    }
-}
-/* ab 1200px */
-@media (min-width: 1200px) {
-    body .col-md-12 .oe-height-2 {
-        height: 380px;
-    }
-}
+/**!*/
+/*body .col-md-12 .oe-height-2 {*/
+  /*height: 420px;*/
+/*}*/
+/*!* bis 400 px *!*/
+/*@media (max-width: 400px) {*/
+    /*body #products_grid .oe_product section {*/
+        /*background: #f8f8f8;*/
+    /*}*/
+/*}*/
+/*!* ab 992px *!*/
+/*@media (min-width: 992px) {*/
+    /*body .col-md-12 .oe-height-2 {*/
+        /*height: 4200px;*/
+    /*}*/
+/*}*/
+/*!* ab 1200px *!*/
+/*@media (min-width: 1200px) {*/
+    /*body .col-md-12 .oe-height-2 {*/
+        /*height: 420px;*/
+    /*}*/
+/*}*/
 
 /* Special test with on if JS is enabled JS and move Picture into other container */
 /*#products_grid .oe_product .oe_product_image img {
@@ -131,12 +131,93 @@ body .col-md-12 .oe-height-2 {
 }*/
 @media (max-width: 400px) {
     .oe_product .oe_product_image {
-        width: 380px !important;
+        width: 320px !important;
         left: 50% !important;
         transform: translateX(-50%);
     }
 }
 
+/* Fixe höhen und Fixe Kachelgrößen 3 Kacheln auf 320px optmiert */
+body[data-rootcatid="4"] #products_grid .oe_product section {
+    background: #69b42e !important;
+    height: 100px;
+}
+body[data-rootcatid="4"] .oe_product.oe_grid.oe-height-2.oe_image_full {
+    height: 420px;
+}
+
+body[data-rootcatid="4"] .oe_product .oe_product_cart {
+    height: 420px;
+}
+body[data-rootcatid="4"] .wrap_wsd_1 {
+    height: 320px;
+    }
+
+body[data-rootcatid="4"] .oe_product_image {
+    height: 320px;
+    margin-bottom:100px;
+
+}
+body[data-rootcatid="4"] #products_grid .oe_product .oe_product_image img {
+    min-width: 320px;
+    max-width: 320px;
+    height: auto;
+
+}
+
+@media (max-width: 768px) {
+body[data-rootcatid="4"] #products_grid .oe_product {
+    width: 320px !important;
+    height: 420px !important;
+}
+}
+@media (max-width: 380px) {
+body[data-rootcatid="4"] #products_grid .oe_product {
+    width: 320px !important;
+    height: 420px !important;
+}
+}
+/* Fixe höhen und Fixe Kachelgrößen 2 Kacheln auf 400px optmiert */
+body[data-rootcatid="2"] #products_grid .oe_product section {
+    background: #69b42e !important;
+    height: 100px;
+}
+body[data-rootcatid="2"] .oe_product.oe_grid.oe-height-2.oe_image_full {
+    height: 500px;
+    width: 400px;
+}
+
+body[data-rootcatid="2"] .oe_product .oe_product_cart {
+    height: 500px;
+}
+body[data-rootcatid="2"] .wrap_wsd_1 {
+    height: 400px;
+    }
+
+body[data-rootcatid="2"] .oe_product_image {
+    height: 400px;
+    margin-bottom:100px;
+
+}
+body[data-rootcatid="2"] #products_grid .oe_product .oe_product_image img {
+    min-width: 400px;
+    max-width: 400px;
+    height: auto;
+
+}
+
+@media (max-width: 768px) {
+body[data-rootcatid="2"] #products_grid .oe_product {
+    width: 400px !important;
+    height: 500px !important;
+}
+}
+@media (max-width: 380px) {
+body[data-rootcatid="2"] #products_grid .oe_product {
+    width: 400px !important;
+    height: 500px !important;
+}
+}
 /*.oe_product .oe_product_image {
     height: 300px;
 }
