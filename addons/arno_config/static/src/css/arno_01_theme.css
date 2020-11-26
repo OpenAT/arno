@@ -136,3 +136,8 @@ a {
 a:hover {
     color: #69b42e;
 }
+@media (min-width: 1024px) {
+    .container {
+        width: 930px;
+    }
+}
