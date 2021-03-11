@@ -191,7 +191,7 @@ div.checkout_steps_buttons {
 }
 
 /* BIC ausblenden TODO: Must be done by xml! */
-#aq*[for='frst_bic'] {
+#aq2 .form-group.has-feedback[for='frst_bic'] {
     display: none
 }
 /*
