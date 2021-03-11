@@ -130,6 +130,7 @@ body[data-rootcatid="4"] #wrap > div.container.oe_website_sale > div.row {
     }
 }*/
 
+/* this calss can be set at shop category to use this design options CSS classes for div#products_grid col-md-12 column-view-3 */
 /* allgmeine Kacheln */
 #products_grid .oe_product section {
     background: #69b42e !important;

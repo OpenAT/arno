@@ -60,7 +60,9 @@
             <!--<link rel='stylesheet' href='/arno_config/static/src/css/bootstrap_arno/css/bootstrap-theme.min.css' t-ignore="true"/> -->
             <!--<link rel='stylesheet' href='/arno_config/static/src/css/arno.css' t-ignore="true"/>-->
             <!--<script type="text/javascript" src="/arno_config/static/src/js/textreplace.js"/>-->
+            <link rel="preconnect" href="https://fonts.gstatic.com"/>
             <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans" t-ignore="true"/>
+            <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&amp;display=swap" t-ignore="true"/>
             <!-- BY MIKE -->
             <link rel='stylesheet' href='/arno_config/static/src/css/arno_bootstrap/css/bootstrap.css' t-ignore="true"/>
             <link rel='stylesheet' href='/arno_config/static/src/css/arno_bootstrap/css/bootstrap-theme.css' t-ignore="true"/>

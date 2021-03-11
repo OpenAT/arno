@@ -2,44 +2,59 @@
 /* BOOTSTRAP BUTTONS */
 /* ----------------- */
 
+/* local overrides */
+
 .btn-primary,
 #add_to_cart {
     border-color: #ff6332;
-    background-color: transparent;
-    border-width: 2px;
-    font-weight: 700;
-    border-radius: 50px;
+    background-color: #ff6332;
+    border-width: 0px;
+    font-weight: 400;
+    border-radius: 0px;
     box-shadow: rgba(0,0,0,.25) 0 3px 11px 0;
+    transition: color .2s ease;
+    color: white;
 }
 .btn-default {
     border-color: #ff6332;
-    background-color: transparent;
-    border-width: 2px;
-    font-weight: 700;
-    border-radius: 50px;
+    background-color: #ff6332;
+    border-width: 0px;
+    font-weight: 400;
+    border-radius:0px;
     box-shadow: rgba(0,0,0,.25) 0 3px 11px 0;
+    transition: color .2s ease;
+    color: white;
 }
 .btn-primary:hover,
 .btn-primary a:hover,
 #add_to_cart:hover,
 #add_to_cart a:hover {
-    border-color: #64A70B;
-    color: #64A70B;
-    background-color: transparent;
-    border-width: 2px;
-    font-weight: 700;
-    border-radius: 50px;
+    border-color: #69b42e;
+    color: #69b42e;
+    background-color: #fff;
+    border-width: 0px;
+    font-weight: 400;
+    border-radius: 0px;
     box-shadow: rgba(0,0,0,.25) 0 3px 11px 0;
 }
 .btn-default:hover,
 .btn-default a:hover {
-    border-color: #64A70B;
-    color: #64A70B;
-    background-color: transparent;
-    border-width: 2px;
-    font-weight: 700;
-    border-radius: 50px;
+    border-color: #69b42e;
+    color: #69b42e;
+    background-color: white;
+    border-width: 0px;
+    font-weight: 400;
+    border-radius: 0px;
     box-shadow: rgba(0,0,0,.25) 0 3px 11px 0;
+}
+.btn.btn-lg.btn-default.price_donate_suggested:hover {
+    color: #69b42e;
+}
+.price_donate_suggested_outer span.price_donate_suggested_currency {
+    color: white !important;
+}
+.price_donate_suggested_outer:hover span.price_donate_suggested_currency {
+    color: #69b42e !important;
 }
 /* Remove Button BG Gradient */
 .btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
