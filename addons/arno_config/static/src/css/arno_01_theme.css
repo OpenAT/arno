@@ -14,7 +14,16 @@ body #wrapwrap footer {
     */
     height: auto;
 }
-
+/* Typography */
+h1, h2, h3 {
+    font-family: 'asap';
+    font-weight: 700;
+    font-style: normal;
+}
+h4, h5, h6 {
+    font-family: 'asap';
+    font-weight: 500;
+}
 
 /* ------------------- */
 /* BOOTSTRAP MODAL BOX */
