@@ -25,6 +25,13 @@ h4, h5, h6 {
     font-weight: 500;
 }
 
+/* special fix thank you page h1 h3 super small on android mobile */
+@media (max-width: 414px) {
+    body .fso_form_thank_you_wrap h1,
+    body .fso_form_thank_you_wrap h3 {
+      font-size: inherit;
+    }
+}
 /* ------------------- */
 /* BOOTSTRAP MODAL BOX */
 /* ------------------- */
