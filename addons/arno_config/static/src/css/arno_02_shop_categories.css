@@ -247,3 +247,7 @@ body[data-rootcatid="2"] .wrap_wsd_1 {
 body .col-md-12 .oe-height-2 {
     height: auto;
 }*/
+#products_grid .quick_add_to_cart .btn-default:hover,
+#products_grid .quick_add_to_cart .btn-default a:hover {
+    background-color: #69b42e;
+}
