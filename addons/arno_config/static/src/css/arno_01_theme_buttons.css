@@ -29,7 +29,7 @@
     border-color: #65b32e;
     background-color: #65b32e;
 }
-.price_donate_suggested_outer .btn-default:active {
+.price_donate_suggested_outer .btn-default:focus {
     color: #65b32e;    
     background-color: white;
 }
