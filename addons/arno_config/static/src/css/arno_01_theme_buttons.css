@@ -16,8 +16,8 @@
     color: white;
 }
 .btn-default {
-    border-color: #65b32e;
-    background-color: #65b32e;
+    border-color: #ff6332;
+    background-color: #ff6332;
     border-width: 0px;
     font-weight: 400;
     border-radius:0px;
@@ -25,6 +25,11 @@
     transition: color .2s ease;
     color: white;
 }
+.price_donate_suggested_outer .btn-default {
+    border-color: #65b32e;
+    background-color: #65b32e;
+}
+
 .btn-primary:hover,
 .btn-primary a:hover,
 #add_to_cart:hover,
