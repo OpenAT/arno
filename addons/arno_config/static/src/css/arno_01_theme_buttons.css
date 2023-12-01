@@ -29,7 +29,10 @@
     border-color: #65b32e;
     background-color: #65b32e;
 }
-
+.price_donate_suggested_outer .btn-default:active {
+    color: #65b32e;    
+    background-color: white;
+}
 .btn-primary:hover,
 .btn-primary a:hover,
 #add_to_cart:hover,
